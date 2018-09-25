@@ -13,26 +13,29 @@
       <h1>Quotumblr</h1>
       <button class="sign-out" style="display:none">Sign Out</button>
     </header>
+
+    <!--quote image-->
+    <div class="hero-image"></div>
     
-    <main role="main">
+    <main role="main" aria-live="assertive">
       <div id="start-page">
-        <article class="main-content about">
+        <article class="about">
           <h2>About</h2>
-          <p>Quotumblr takes a text post from your <a href="https://www.tumblr.com/" target="_blank">Tumblr</a> feed and returns a quote from <a href="https://favqs.com/" target="_blank"><img src="https://image.ibb.co/m5FQoc/Screen_Shot_2018_04_27_at_1_17_54_PM.png"  alt="Fave Q's Fave Quotes" class="favqs"></a> that contains a random word from that post.</p>
+          <p>Quotumblr takes a text post from your <a style="color:#36465d" href="https://www.tumblr.com/" target="_blank">Tumblr</a> feed and returns a quote from <a href="https://favqs.com/" target="_blank"><img src="https://image.ibb.co/m5FQoc/Screen_Shot_2018_04_27_at_1_17_54_PM.png"  alt="Fave Q's Fave Quotes" class="favqs"></a> that contains a random word from that post.</p>
         
         </article>
         <div class="start-page-row">
         
-        <article class="main-content">
+        <article class="sign-in-box">
           <h2>Get Started</h2>
           <form id="sign-in">
-            <label for="username">Enter Your Tumblr Username</label>
-            <input class="username-input" type="text" name="username" placeholder="username" required>
+            
+            <input class="username-input" type="text" name="username" placeholder="Tumblr username" required>
             <button type="submit">Submit</button>
           </form>
-            <p>Don't have a Tumblr account? <a href="https://www.tumblr.com/register" target="_blank">Sign up</a></p>
+            <p>Don't have a Tumblr account? <a style="color:white" href="https://www.tumblr.com/register" target="_blank">Sign up</a></p>
         </article>
-        <aside class="main-content ex-aside">
+        <aside>
           <h2 id="ex-head">Example</h2>
 
           <div class="js-quote-generated">
@@ -40,7 +43,7 @@
               <article class="example-content">
            
                 <h3>Here's Your Quote!</h3>
-                <h4>"Look at the <span style="background-color:#FFE90D">sky</span>. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work."</h4>
+                <h4>"Look at the <span style="background-color:#59B599;color:#171717;padding:3px;border-radius:2px">sky</span>. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work."</h4>
                 --Abdul Kalam
               
               </article>
@@ -48,7 +51,7 @@
             
             <article class="example-content">
               <h3>Your Post</h3>
-              Butterfly in the <span style="background-color:#FFE90D">sky</span>, I can go twice as high. Take a look, it's in a book - Reading Rainbow. I can go anywhere! Friends to know and ways to grow - Reading Rainbow. I can be anything! Take a look, it's in a book - Reading Rainbow!
+              Butterfly in the <span style="background-color:#59B599;color:#171717;padding:3px;border-radius:2px">sky</span>, I can go twice as high. Take a look, it's in a book - Reading Rainbow. I can go anywhere! Friends to know and ways to grow - Reading Rainbow. I can be anything! Take a look, it's in a book - Reading Rainbow!
             </article>
 
             </div>
