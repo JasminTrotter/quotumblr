@@ -1,0 +1,239 @@
+body {
+  box-sizing: border-box;
+  background-color: white;
+  color: white;
+  font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+
+header {
+  padding: 10px;
+  border-bottom: #fff solid 1px;
+  margin-bottom: 30px;
+  background: #36465d; 
+  columns: 250px 2;
+  width: 100%;
+}
+
+.hero-image {
+  background-image: url('http://i68.tinypic.com/2wpi8if.png');
+  background-size: contain;
+  height: 100px;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px; 
+}
+
+.about {
+  color: #36465d;
+  padding: 15px 25px;
+}
+
+.sign-in-box {
+  background: #36465d; 
+  color: white;
+  padding: 15px 25px;
+  border: #36465d solid 2px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.username-label {
+  color: #DEDEDE;
+}
+
+.example {
+  background-color: white;
+  background-repeat: repeat;
+  border-radius: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.username-input {
+  height: 25px;
+  border: solid #444 1px;
+  margin-top: 10px;
+  display: block;
+}
+
+.sign-out {
+  float: right;
+  background-color: #4E5A6A;
+  font-size: 15px;
+  margin-right: 25px;
+  color: white;
+}
+
+.post-select:hover, .post-select:focus, input[type="radio"]:checked + label {
+    background-color: #94C0FF;
+    color: black;
+}
+
+.radio-content {
+  display: flex;
+  margin: 20px;
+  
+}
+
+label.post-select {
+  padding: 15px;
+  width: 100%;
+  letter-spacing: .5px;
+}
+
+.radio-input {
+  margin: 15px 7px 15px 15px;
+}
+
+.favqs {
+  background-size: 120px;
+  display: inline-block;
+  height: 30px;
+  width: 120px;
+  position: relative;
+  top: 7px;
+}
+
+
+.radio-content {
+  color: #444;
+  background: white;
+  border: #36465d solid 2px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.post-select-form {
+  color: #444;
+  background: white;
+  padding: 15px 25px;
+}
+.main-content {
+  color: #444;
+  background: white;
+  padding: 15px 25px;
+  border: #36465d solid 2px;
+}
+
+.main-content, .second-content {
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.example-content {
+  color: #444;
+  background: white;
+  padding: 15px 25px;
+  border: #36465d solid 2px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+main button {
+  margin: 20px 20px 20px 0px;
+}
+
+button {
+  background-color: #DEDEDE;
+  color: #454545;
+
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #FFA11A;
+  color: #36465d;
+  border: #FFA11A 2px solid;
+}
+
+.radio-content {
+  cursor: pointer;
+}
+
+label.post-select {
+  cursor: pointer;
+}
+
+
+
+aside {
+  color: #444;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+
+.start-page-row {
+  display: flex;
+  width: 100%;
+}
+
+#sign-in {
+  display: block;
+  margin: 5px 0px;
+  max-width: 95%;
+}
+
+fieldset {
+  border: none;
+}
+
+label.js-post-selection {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .start-page-row {
+    display: block;
+    box-sizing: border-box;
+  }
+  .sign-in-module, .example {
+    width: 84%;
+    margin: auto;
+  }
+    header {
+    columns: 1 411px;
+  }
+}
+
+
+@media only screen and (max-width: 411px) {
+  h1 {
+    font-size: 40px;
+  }
+  .example-content {
+    padding: 10px;
+  }
+  aside.main-content {
+    padding: 0px;
+  }
+  #ex-head {
+    margin: 20px;
+  }
+  div.example {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  p {
+    font-size: 15px;
+  }
+}
