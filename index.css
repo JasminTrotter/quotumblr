@@ -10,13 +10,13 @@ header {
   padding: 10px;
   border-bottom: #fff solid 1px;
   margin-bottom: 30px;
-  background: #36465d; 
+  background: #36465d;
   columns: 250px 2;
   width: 100%;
 }
 
 .hero-image {
-  background-image: url('http://i68.tinypic.com/2wpi8if.png');
+  background-image: url('https://lh3.googleusercontent.com/YqoRNAnc9tD0g9eKMuzxiab18c43GQ4dBLeR3VB-jIQqUCrXmpCTyojMyGCHSvXVE2mhtByf_qUP-n7Faw3bIDP-lpFF3ceRoO9ctsTKGMfjQkZjAcfzc6UOnkXEootVEkUWOgA8Dg=w2400');
   background-size: contain;
   height: 100px;
   background-repeat: repeat;
@@ -31,7 +31,7 @@ h2 {
 }
 
 p {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .about {
@@ -40,7 +40,7 @@ p {
 }
 
 .sign-in-box {
-  background: #36465d; 
+  background: #36465d;
   color: white;
   padding: 15px 25px;
   border: #36465d solid 2px;
@@ -83,7 +83,7 @@ p {
 .radio-content {
   display: flex;
   margin: 20px;
-  
+
 }
 
 label.post-select {
